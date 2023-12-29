@@ -7,10 +7,10 @@ This Framework was created for use by the CIA, however a number of malware sampl
 the wild using these algorithms. By releasing our modifications we aim to improve detections of the framework
 and identification of additonal samples using these techniques in the wild. 
 
- "The Marble Framework is designed to allow for flexible and easy-to-use obfuscation when developing tools. 
- When signaturing tools, string obfuscation algorithms (especially those that are unique) are often used to 
- link malware to a specific developer or development shop. This framework is intended to help us (AED) to 
- improve upon our current process for string/data obfuscation in our tools."
+> "The Marble Framework is designed to allow for flexible and easy-to-use obfuscation when developing tools. 
+> When signaturing tools, string obfuscation algorithms (especially those that are unique) are often used to 
+> link malware to a specific developer or development shop. This framework is intended to help us (AED) to 
+> improve upon our current process for string/data obfuscation in our tools."
 
 This framework can be used to dynamically obfuscate and handle common string operations as an anti-forensics
 capability. 
