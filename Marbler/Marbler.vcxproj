@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This project created via the OSB Project Template by Josh S, Keith T. -->
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3BE3DFB1-174A-448F-9048-A40F00B8652B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Marbler</RootNamespace>
+    <ProjectName>Mibster</ProjectName>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP10D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP11D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP12D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP1D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP2D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP3D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP4D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP5D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP6D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP7D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP8D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP9D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP10D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP11D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP12D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP1D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP2D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP3D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP4D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP5D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP6D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP7D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP8D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP9D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR10D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR11D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR12D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR1D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR2D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR3D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR4D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR5D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR6D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR7D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR8D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR9D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR10D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR11D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR12D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR1D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR2D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR3D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR4D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR5D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR6D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR7D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR8D.cpp" />
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR9D.cpp" />
+    <ClCompile Include="IScramble.cpp" />
+    <ClCompile Include="Mibster.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP1.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP10.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP11.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP12.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP2.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP3.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP4.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP5.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP6.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP7.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP8.cpp" />
+    <ClCompile Include="MBL_CLASS_BUMP9.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP1.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP10.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP11.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP12.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP2.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP3.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP4.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP5.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP6.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP7.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP8.cpp" />
+    <ClCompile Include="MBL_CLASS_RBUMP9.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR1.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR10.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR11.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR12.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR2.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR3.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR4.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR5.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR6.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR7.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR8.cpp" />
+    <ClCompile Include="MBL_CLASS_RXOR9.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR1.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR10.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR11.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR12.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR2.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR3.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR4.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR5.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR6.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR7.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR8.cpp" />
+    <ClCompile Include="MBL_CLASS_XOR9.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP1.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP10.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP11.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP12.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP2.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP3.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP4.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP5.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP6.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP7.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP8.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP9.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP1.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP10.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP11.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP12.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP2.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP3.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP4.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP5.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP6.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP7.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP8.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP9.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP1.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP2.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP3.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP4.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP5.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP6.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP7.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP8.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RXOR1.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RXOR2.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RXOR3.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_RXOR4.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR1.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR2.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR3.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR4.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR5.cpp" />
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR6.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RBUMP1.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RBUMP2.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RBUMP3.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RBUMP4.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RBUMP5.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RBUMP6.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RBUMP7.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RBUMP8.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RXOR1.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RXOR2.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RXOR3.cpp" />
+    <ClCompile Include="MBL_FORLOOP_RXOR4.cpp" />
+    <ClCompile Include="MBL_FORLOOP_XOR1.cpp" />
+    <ClCompile Include="MBL_FORLOOP_XOR2.cpp" />
+    <ClCompile Include="MBL_FORLOOP_XOR3.cpp" />
+    <ClCompile Include="MBL_FORLOOP_XOR4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP10D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP11D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP12D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP5D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP6D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP7D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP8D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP9D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP10D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP11D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP12D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP5D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP6D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP7D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP8D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP9D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR10D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR11D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR12D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR5D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR6D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR7D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR8D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR9D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR10D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR11D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR12D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR5D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR6D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR7D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR8D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR9D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP10D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP11D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP12D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP5D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP6D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP7D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP8D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP9D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP10D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP11D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP12D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP5D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP6D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP7D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP8D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP9D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP5D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP6D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP7D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP8D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RXOR1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RXOR2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RXOR3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RXOR4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR5D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR6D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP5D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP6D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP7D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP8D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RXOR1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RXOR2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RXOR3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RXOR4D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_XOR1D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_XOR2D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_XOR3D.h" />
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_XOR4D.h" />
+    <ClInclude Include="IScramble.h" />
+    <ClInclude Include="Mibster.h" />
+    <ClInclude Include="MBL_CLASS_BUMP1.h" />
+    <ClInclude Include="MBL_CLASS_BUMP10.h" />
+    <ClInclude Include="MBL_CLASS_BUMP11.h" />
+    <ClInclude Include="MBL_CLASS_BUMP12.h" />
+    <ClInclude Include="MBL_CLASS_BUMP2.h" />
+    <ClInclude Include="MBL_CLASS_BUMP3.h" />
+    <ClInclude Include="MBL_CLASS_BUMP4.h" />
+    <ClInclude Include="MBL_CLASS_BUMP5.h" />
+    <ClInclude Include="MBL_CLASS_BUMP6.h" />
+    <ClInclude Include="MBL_CLASS_BUMP7.h" />
+    <ClInclude Include="MBL_CLASS_BUMP8.h" />
+    <ClInclude Include="MBL_CLASS_BUMP9.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP1.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP10.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP11.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP12.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP2.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP3.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP4.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP5.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP6.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP7.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP8.h" />
+    <ClInclude Include="MBL_CLASS_RBUMP9.h" />
+    <ClInclude Include="MBL_CLASS_RXOR1.h" />
+    <ClInclude Include="MBL_CLASS_RXOR10.h" />
+    <ClInclude Include="MBL_CLASS_RXOR11.h" />
+    <ClInclude Include="MBL_CLASS_RXOR12.h" />
+    <ClInclude Include="MBL_CLASS_RXOR2.h" />
+    <ClInclude Include="MBL_CLASS_RXOR3.h" />
+    <ClInclude Include="MBL_CLASS_RXOR4.h" />
+    <ClInclude Include="MBL_CLASS_RXOR5.h" />
+    <ClInclude Include="MBL_CLASS_RXOR6.h" />
+    <ClInclude Include="MBL_CLASS_RXOR7.h" />
+    <ClInclude Include="MBL_CLASS_RXOR8.h" />
+    <ClInclude Include="MBL_CLASS_RXOR9.h" />
+    <ClInclude Include="MBL_CLASS_XOR1.h" />
+    <ClInclude Include="MBL_CLASS_XOR10.h" />
+    <ClInclude Include="MBL_CLASS_XOR11.h" />
+    <ClInclude Include="MBL_CLASS_XOR12.h" />
+    <ClInclude Include="MBL_CLASS_XOR2.h" />
+    <ClInclude Include="MBL_CLASS_XOR3.h" />
+    <ClInclude Include="MBL_CLASS_XOR4.h" />
+    <ClInclude Include="MBL_CLASS_XOR5.h" />
+    <ClInclude Include="MBL_CLASS_XOR6.h" />
+    <ClInclude Include="MBL_CLASS_XOR7.h" />
+    <ClInclude Include="MBL_CLASS_XOR8.h" />
+    <ClInclude Include="MBL_CLASS_XOR9.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP1.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP10.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP11.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP12.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP2.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP3.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP4.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP5.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP6.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP7.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP8.h" />
+    <ClInclude Include="MBL_FORLOOP_BUMP9.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP1.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP10.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP11.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP12.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP2.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP3.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP4.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP5.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP6.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP7.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP8.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP9.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP1.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP2.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP3.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP4.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP5.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP6.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP7.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP8.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RXOR1.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RXOR2.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RXOR3.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_RXOR4.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR1.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR2.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR3.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR4.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR5.h" />
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR6.h" />
+    <ClInclude Include="MBL_FORLOOP_RBUMP1.h" />
+    <ClInclude Include="MBL_FORLOOP_RBUMP2.h" />
+    <ClInclude Include="MBL_FORLOOP_RBUMP3.h" />
+    <ClInclude Include="MBL_FORLOOP_RBUMP4.h" />
+    <ClInclude Include="MBL_FORLOOP_RBUMP5.h" />
+    <ClInclude Include="MBL_FORLOOP_RBUMP6.h" />
+    <ClInclude Include="MBL_FORLOOP_RBUMP7.h" />
+    <ClInclude Include="MBL_FORLOOP_RBUMP8.h" />
+    <ClInclude Include="MBL_FORLOOP_RXOR1.h" />
+    <ClInclude Include="MBL_FORLOOP_RXOR2.h" />
+    <ClInclude Include="MBL_FORLOOP_RXOR3.h" />
+    <ClInclude Include="MBL_FORLOOP_RXOR4.h" />
+    <ClInclude Include="MBL_FORLOOP_XOR1.h" />
+    <ClInclude Include="MBL_FORLOOP_XOR2.h" />
+    <ClInclude Include="MBL_FORLOOP_XOR3.h" />
+    <ClInclude Include="MBL_FORLOOP_XOR4.h" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)props\User_Debug_x86.props" />
+    <Import Project="$(SolutionDir)props\internal\GUI_x86.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)props\User_Static_Release_x86.props" />
+    <Import Project="$(SolutionDir)props\internal\GUI_x86.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)props\User_Debug_x64.props" />
+    <Import Project="$(SolutionDir)props\internal\GUI_x64.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)props\User_Static_Release_x64.props" />
+    <Import Project="$(SolutionDir)props\internal\GUI_x64.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile />
+    <Link />
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Debug;$(Libs);$(Libs)$(Configuration)\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile />
+    <Link />
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Release;$(Libs);$(Libs)$(Configuration)\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile />
+    <Link />
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)x64\Debug;$(Libs);$(Libs)$(Configuration)\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile />
+    <Link />
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)x64\Release;$(Libs);$(Libs)$(Configuration)\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
+<!-- This project created via the OSB Project Template by Josh S, Keith T. -->

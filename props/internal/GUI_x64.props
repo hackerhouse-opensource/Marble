@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This project created via the OSB Project Template by ???, ??? -->
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Project="GUI.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalManifestDependencies>"type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='amd64' publicKeyToken='6595b64144ccf1df' language='*'"</AdditionalManifestDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>
+<!-- This project created via the OSB Project Template by ???, ??? -->

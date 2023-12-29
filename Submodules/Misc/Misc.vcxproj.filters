@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\FileTyping">
+      <UniqueIdentifier>{7d1829a2-e689-4766-9b75-e47354aa2e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileTyping">
+      <UniqueIdentifier>{f8a1829d-8841-4e8a-80b9-3d0b34ca9590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MemoryScan">
+      <UniqueIdentifier>{17969aa4-098e-4bd3-a9db-df67d9921e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MemoryScan">
+      <UniqueIdentifier>{629cff63-d6f7-485a-b33d-1d406cedd633}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileTyping\MISCTextFileTyper_ENC.cpp">
+      <Filter>Source Files\FileTyping</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryScan\MISCMemorySearch_NSS.cpp">
+      <Filter>Source Files\MemoryScan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryScan\MISCMemorySearch_NSS.h">
+      <Filter>Header Files\MemoryScan</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTyping\MISCTextFileTyper_ENC.h">
+      <Filter>Header Files\FileTyping</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

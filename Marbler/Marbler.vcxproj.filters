@@ -1,0 +1,1227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Deobfuscators">
+      <UniqueIdentifier>{90610a42-13bd-4bdd-b13d-883a29a1d6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C++">
+      <UniqueIdentifier>{2689bc79-77b4-4867-b647-30bde02a96d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C++\Bump">
+      <UniqueIdentifier>{7645afbb-c3e9-426f-9a1d-cb51ac68dac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C++\RXOR">
+      <UniqueIdentifier>{cf4e4213-1133-41f8-8869-16467010c9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C++\XOR">
+      <UniqueIdentifier>{5f2051cd-0857-4ea5-a9f5-e46c2c50e581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C">
+      <UniqueIdentifier>{d639dc54-3dd5-46a9-b073-5d5720fe5c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\XOR">
+      <UniqueIdentifier>{bdd7181a-0e09-43f6-b077-2bc9884ca896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\RXOR">
+      <UniqueIdentifier>{d5803731-7d9b-4e6d-b96e-adfde35a0c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\Bump">
+      <UniqueIdentifier>{c7081f1e-746e-492f-b65f-9aaa32b5a0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators">
+      <UniqueIdentifier>{fb282da5-4491-4a86-bba4-02a11a7aea96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C">
+      <UniqueIdentifier>{a4b25340-dc1a-4367-992b-9e546e72fe35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C++">
+      <UniqueIdentifier>{8bda770c-10d1-4b2c-9a81-33de5afc2785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\Bump">
+      <UniqueIdentifier>{7339c9ab-208d-4b19-b59a-ddfce7706934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\RXOR">
+      <UniqueIdentifier>{52c0c0c8-3ccc-4ff3-bcc4-f2ae5583e326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\XOR">
+      <UniqueIdentifier>{3f7ec3b9-6e2a-4ca5-840a-7f992a5c26b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C++\Bump">
+      <UniqueIdentifier>{d7c4ac50-ddc7-4e6e-8a51-d514d248c0c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C++\XOR">
+      <UniqueIdentifier>{d8ca6b80-284f-41c5-be5d-381453c49833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C++\RXOR">
+      <UniqueIdentifier>{29b263f5-2933-49fb-a229-38dba9e1fdf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\RBump">
+      <UniqueIdentifier>{09390133-4385-4008-aa39-bf67763c2e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\RBump">
+      <UniqueIdentifier>{d507a917-6f42-4eee-844b-eceb29a6dd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\Bump\Insert">
+      <UniqueIdentifier>{1c9c942a-f3db-4998-a0ee-5281ecafb33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\Bump\Func">
+      <UniqueIdentifier>{d24c174d-970d-4e24-88a3-3ab0d1395834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\Bump\Insert">
+      <UniqueIdentifier>{5658b499-ffee-4be4-b438-cef70a99d7a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\Bump\Func">
+      <UniqueIdentifier>{00bf4c9b-0f5d-4d82-a311-2188f567ad7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\RBump\Insert">
+      <UniqueIdentifier>{fba43252-4729-4770-81f8-50015431fa26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\RBump\Func">
+      <UniqueIdentifier>{122b6225-f29b-4f25-ad00-8add8781edc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\RXOR\Insert">
+      <UniqueIdentifier>{51b76a95-755e-49fb-8d3e-c8520b0997af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\RXOR\Func">
+      <UniqueIdentifier>{dfa32030-beff-4380-a00f-5ae91abaac2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\XOR\Insert">
+      <UniqueIdentifier>{d5c58b35-2a73-4d27-bd47-78a4a07d3cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C\XOR\Func">
+      <UniqueIdentifier>{5775dfcb-3a61-4bae-b285-4972fb60f443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\RXOR\Insert">
+      <UniqueIdentifier>{42e7cba7-9222-4961-bfde-23876b29d3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\RXOR\Func">
+      <UniqueIdentifier>{68b64072-a6b8-4ef1-899e-777458030238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\XOR\Insert">
+      <UniqueIdentifier>{374f4e8b-6994-4a3d-b3eb-eb558e898ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\XOR\Func">
+      <UniqueIdentifier>{5c448459-ca23-49dc-994d-eb4c2f38e3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\RBump\Insert">
+      <UniqueIdentifier>{b5c2d61d-dd08-42df-9cca-31eb1d038ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C\RBump\Func">
+      <UniqueIdentifier>{93146da1-2613-439e-acbb-1154628552c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obfuscators\C++\RBump">
+      <UniqueIdentifier>{470ab85b-fff3-4dc9-a845-a1a4948789c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deobfuscators\C++\RBump">
+      <UniqueIdentifier>{8a4d5941-ce2b-4fc9-b5f3-e96915d1cbda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IScramble.h">
+      <Filter>Obfuscators</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR1.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR2.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR3.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR4.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR1.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR2.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR3.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR4.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP1.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP2.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP3.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP4.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP5.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP6.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP7.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP8.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP9.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP10.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP11.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_BUMP12.h">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP1.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP2.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP3.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP4.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP5.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP6.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP7.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP8.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP9.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP10.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP11.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_BUMP12.h">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RXOR1.h">
+      <Filter>Obfuscators\C\RXOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RXOR2.h">
+      <Filter>Obfuscators\C\RXOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RXOR3.h">
+      <Filter>Obfuscators\C\RXOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RXOR4.h">
+      <Filter>Obfuscators\C\RXOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RXOR1.h">
+      <Filter>Obfuscators\C\RXOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RXOR2.h">
+      <Filter>Obfuscators\C\RXOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RXOR3.h">
+      <Filter>Obfuscators\C\RXOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RXOR4.h">
+      <Filter>Obfuscators\C\RXOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR1.h">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR2.h">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR3.h">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR4.h">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR5.h">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_XOR6.h">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_XOR1.h">
+      <Filter>Obfuscators\C\XOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_XOR2.h">
+      <Filter>Obfuscators\C\XOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_XOR3.h">
+      <Filter>Obfuscators\C\XOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_XOR4.h">
+      <Filter>Obfuscators\C\XOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RBUMP1.h">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RBUMP2.h">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RBUMP3.h">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RBUMP4.h">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP1.h">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP2.h">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP3.h">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP4.h">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RBUMP5.h">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RBUMP6.h">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RBUMP7.h">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_RBUMP8.h">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP5.h">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP6.h">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP7.h">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_FORLOOP_FUNC_RBUMP8.h">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR1D.h">
+      <Filter>Deobfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR2D.h">
+      <Filter>Deobfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR3D.h">
+      <Filter>Deobfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR4D.h">
+      <Filter>Deobfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR5D.h">
+      <Filter>Deobfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_XOR6D.h">
+      <Filter>Deobfuscators\C\XOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_XOR1D.h">
+      <Filter>Deobfuscators\C\XOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_XOR2D.h">
+      <Filter>Deobfuscators\C\XOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_XOR3D.h">
+      <Filter>Deobfuscators\C\XOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_XOR4D.h">
+      <Filter>Deobfuscators\C\XOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RXOR1D.h">
+      <Filter>Deobfuscators\C\RXOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RXOR2D.h">
+      <Filter>Deobfuscators\C\RXOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RXOR3D.h">
+      <Filter>Deobfuscators\C\RXOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RXOR4D.h">
+      <Filter>Deobfuscators\C\RXOR\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RXOR1D.h">
+      <Filter>Deobfuscators\C\RXOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RXOR2D.h">
+      <Filter>Deobfuscators\C\RXOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RXOR3D.h">
+      <Filter>Deobfuscators\C\RXOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RXOR4D.h">
+      <Filter>Deobfuscators\C\RXOR\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP1D.h">
+      <Filter>Deobfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP2D.h">
+      <Filter>Deobfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP3D.h">
+      <Filter>Deobfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP4D.h">
+      <Filter>Deobfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP5D.h">
+      <Filter>Deobfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP6D.h">
+      <Filter>Deobfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP7D.h">
+      <Filter>Deobfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_RBUMP8D.h">
+      <Filter>Deobfuscators\C\RBump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP1D.h">
+      <Filter>Deobfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP2D.h">
+      <Filter>Deobfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP3D.h">
+      <Filter>Deobfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP4D.h">
+      <Filter>Deobfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP5D.h">
+      <Filter>Deobfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP6D.h">
+      <Filter>Deobfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP7D.h">
+      <Filter>Deobfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_RBUMP8D.h">
+      <Filter>Deobfuscators\C\RBump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP1D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP2D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP3D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP4D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP5D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP6D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP7D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP8D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP9D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP10D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP11D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_FUNC_BUMP12D.h">
+      <Filter>Deobfuscators\C\Bump\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP1D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP2D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP3D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP4D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP5D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP6D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP7D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP8D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP9D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP10D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP11D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_FORLOOP_BUMP12D.h">
+      <Filter>Deobfuscators\C\Bump\Insert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR1D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR2D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR3D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR4D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR1D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR2D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR3D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR4D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR5D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR6D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR7D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR8D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR9D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR10D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR11D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_XOR12D.h">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR5.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR6.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR7.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR8.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR9.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR10.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR11.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_XOR12.h">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR5D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR6D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR7D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR8D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR9D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR10D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR11D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR12D.h">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR5.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR6.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR7.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR8.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR9.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR10.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR11.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RXOR12.h">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP1.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP2.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP3.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP4.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP5.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP6.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP7.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP8.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP9.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP10.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP11.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_BUMP12.h">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP1.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP2.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP3.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP4.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP5.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP6.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP7.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP8.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP9.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP10.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP11.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="MBL_CLASS_RBUMP12.h">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP1D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP2D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP3D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP4D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP5D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP6D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP7D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP8D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP9D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP10D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP11D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP12D.h">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP1D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP2D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP3D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP4D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP5D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP6D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP7D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP8D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP9D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP10D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP11D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP12D.h">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClInclude>
+    <ClInclude Include="Mibster.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IScramble.cpp" />
+    <ClCompile Include="MBL_FORLOOP_BUMP1.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP2.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP3.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP4.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP5.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP6.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP7.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP8.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP9.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP10.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP11.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_BUMP12.cpp">
+      <Filter>Obfuscators\C\Bump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP1.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP2.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP3.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP4.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP5.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP6.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP7.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP8.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP9.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP10.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP11.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_BUMP12.cpp">
+      <Filter>Obfuscators\C\Bump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RXOR1.cpp">
+      <Filter>Obfuscators\C\RXOR\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RXOR2.cpp">
+      <Filter>Obfuscators\C\RXOR\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RXOR3.cpp">
+      <Filter>Obfuscators\C\RXOR\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RXOR4.cpp">
+      <Filter>Obfuscators\C\RXOR\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RXOR1.cpp">
+      <Filter>Obfuscators\C\RXOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RXOR2.cpp">
+      <Filter>Obfuscators\C\RXOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RXOR3.cpp">
+      <Filter>Obfuscators\C\RXOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RXOR4.cpp">
+      <Filter>Obfuscators\C\RXOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR1.cpp">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR2.cpp">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR3.cpp">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR4.cpp">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR5.cpp">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_XOR6.cpp">
+      <Filter>Obfuscators\C\XOR\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_XOR1.cpp">
+      <Filter>Obfuscators\C\XOR\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_XOR2.cpp">
+      <Filter>Obfuscators\C\XOR\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_XOR3.cpp">
+      <Filter>Obfuscators\C\XOR\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_XOR4.cpp">
+      <Filter>Obfuscators\C\XOR\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RBUMP1.cpp">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RBUMP2.cpp">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RBUMP3.cpp">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RBUMP4.cpp">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP1.cpp">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP2.cpp">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP3.cpp">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP4.cpp">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RBUMP5.cpp">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RBUMP6.cpp">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RBUMP7.cpp">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_RBUMP8.cpp">
+      <Filter>Obfuscators\C\RBump\Insert</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP5.cpp">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP6.cpp">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP7.cpp">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_FORLOOP_FUNC_RBUMP8.cpp">
+      <Filter>Obfuscators\C\RBump\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR1.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR2.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR3.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR4.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR1D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR2D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR3D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR4D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR5D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR6D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR7D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR8D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR9D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR10D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR11D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_XOR12D.cpp">
+      <Filter>Deobfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR5.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR6.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR7.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR8.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR9.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR10.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR11.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_XOR12.cpp">
+      <Filter>Obfuscators\C++\XOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR1.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR2.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR3.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR4.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR1D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR2D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR3D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR4D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR5D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR6D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR7D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR8D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR9D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR10D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR11D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RXOR12D.cpp">
+      <Filter>Deobfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR5.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR6.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR7.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR8.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR9.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR10.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR11.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RXOR12.cpp">
+      <Filter>Obfuscators\C++\RXOR</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP1.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP2.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP3.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP4.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP5.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP6.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP7.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP8.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP9.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP10.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP11.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_BUMP12.cpp">
+      <Filter>Obfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP1.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP2.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP3.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP4.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP5.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP6.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP7.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP8.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP9.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP10.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP11.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="MBL_CLASS_RBUMP12.cpp">
+      <Filter>Obfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP1D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP2D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP3D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP4D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP5D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP6D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP7D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP8D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP9D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP10D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP11D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_BUMP12D.cpp">
+      <Filter>Deobfuscators\C++\Bump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP1D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP2D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP3D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP4D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP5D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP6D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP7D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP8D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP9D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP10D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP11D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Deobfuscators\MBL_CLASS_RBUMP12D.cpp">
+      <Filter>Deobfuscators\C++\RBump</Filter>
+    </ClCompile>
+    <ClCompile Include="Mibster.cpp" />
+  </ItemGroup>
+</Project>
