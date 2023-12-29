@@ -10,7 +10,17 @@ and identification of additional samples using these techniques in the wild.
 > "The Marble Framework is designed to allow for flexible and easy-to-use obfuscation when developing tools. 
 > When signaturing tools, string obfuscation algorithms (especially those that are unique) are often used to 
 > link malware to a specific developer or development shop. This framework is intended to help us (AED) to 
-> improve upon our current process for string/data obfuscation in our tools."
+> improve upon our current process for string/data obfuscation in our tools." The framework utilizes pre and
+> post-build execution steps to apply obfuscation to the tool. If the tool breaks the build, the post build will
+> always be able to repair it. The pre-build execuion step will store clean copies of the code before making
+> modifications. The post build execution step restores the files to a clean-copy state. The framework allows for
+> obfuscation to be chosen randomly from a pool of techniques. These techniques can be filtered based upon the
+> project needs. If desired, a user may also, select a specific technique to use for obfuscation. A receipt file
+> is generated on run (and replaces any previous receipts). The receipt file identifes the algorithm used as well
+> as all of the strings/data that was obfuscated. The post-build step will also double check to make sure none of
+> the obfuscated data appears in the binary.
+
+The framework's integration into the EDG Project Wizard will set up the appropriate project and solution properties needed to run. Currently, the obfuscation framework will only be set for release builds. If it is so desired to debug the obfuscated strings you may manually set the pre and post build events.
 
 This framework can be used to dynamically obfuscate and handle common string operations as an anti-forensics'
 capability.
