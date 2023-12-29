@@ -38,8 +38,8 @@ project. File states and changes are stored in ".marble" files and it supports a
 
 The following malware samples have been identified in the wild as using code components from the Marble Framework:
 
-* Worm:Win32/Takc!pz
-* TROJAN-DROPPER.WIN32.DAPATO
+* Worm:Win32/Takc!pz (Microsoft)
+* TROJAN-DROPPER.WIN32.DAPATO (Kaspersky)
 
 # License
 
