@@ -1,8 +1,8 @@
 # Marble Framework
 
-In 2017, Wikileaks published the source code for the Marble Framework which was incomplete. Using AI/ML and
+In 2017, Wikileaks published incomplete source code for the Marble Framework. Using AI/ML and a human with
 information learned from the Vault7 leaks, we re-constructed the missing code libraries and have patched the
-StringScrambling solution to allow for build-time String Obfuscation using 106 "Marbles" with Visual Studio. 
+StringScrambling solution to compile for build-time String Obfuscation using 106 "Marbles" with Visual Studio. 
 This Framework was created for use by the CIA, however a number of malware samples have been identified in
 the wild using these algorithms. By releasing our modifications we aim to improve detections of the framework
 and identification of additonal samples using these techniques in the wild. 
