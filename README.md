@@ -19,7 +19,7 @@ capability.
 
 To use, compile the solution which will produce `Mibster.exe`, `Mender.exe` and `Validator.exe`. These tools
 can be added into the Pre-Build and Post-Build steps of a Visual Studio file to obfuscate the following
-data types by including `Marble.h` from the `Shared` folder in your project file:
+data types by including `Marble.h` and your chosen deobfuscator from the `Shared` folder in your project file:
 
  * CARBLE - char[] / char*
  * WARBLE - wchar[] / wchar*
