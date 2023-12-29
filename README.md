@@ -21,10 +21,6 @@ of additional samples using these techniques in the wild. The tool description f
 > as all of the strings/data that was obfuscated. The post-build step will also double check to make sure none of
 > the obfuscated data appears in the binary.
 
-The framework's integration into the EDG Project Wizard will set up the appropriate project and solution properties 
-needed to run. Currently, the obfuscation framework will only be set for release builds. If it is so desired to debug 
-the obfuscated strings you may manually set the pre and post build events.
-
 This framework can be used to dynamically obfuscate and handle common string operations as an anti-forensics'
 capability.
 
