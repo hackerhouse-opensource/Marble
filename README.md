@@ -12,7 +12,7 @@ and identification of additional samples using these techniques in the wild.
 > link malware to a specific developer or development shop. This framework is intended to help us (AED) to 
 > improve upon our current process for string/data obfuscation in our tools."
 
-This framework can be used to dynamically obfuscate and handle common string operations as an anti-forensics
+This framework can be used to dynamically obfuscate and handle common string operations as an anti-forensics'
 capability.
 
 ## Documentation
