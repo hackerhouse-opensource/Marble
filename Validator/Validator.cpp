@@ -13,7 +13,6 @@
  *
  * This tool takes a list of dirty strings/data (in the form of a Marble Receipt)
  * and verifies that no strings/data are in the specified binary.
-
  *
  */
 

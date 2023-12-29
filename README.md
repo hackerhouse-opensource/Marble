@@ -34,6 +34,8 @@ project. File states and changes are stored in ".marble" files and it supports a
 
 [Marble Framework (wikileaks)](https://wikileaks.org/ciav7p1/cms/page_14588467.html)
 
+Documentation can also be found in the `docs` folder which has been created from the link above. 
+
 ## Malware Detected
 
 The following malware samples have been identified in the wild as using code components from the Marble Framework:
