@@ -1,7 +1,7 @@
 /*
  * Filename:		Validator.cpp
  *
- * Classification:	SECRET//NOFORN
+ * Classification:	
  * Classified By:	
  *
  * Tool Name:		Validator

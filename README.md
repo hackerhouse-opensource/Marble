@@ -15,7 +15,6 @@ and identification of additonal samples using these techniques in the wild.
 This framework can be used to dynamically obfuscate and handle common string operations as an anti-forensics
 capability.
 
-
 ## Documentation
 
 To use, compile the solution which will produce `Mibster.exe`,`Mender.exe` and `Validator.exe`. These tools
@@ -45,5 +44,3 @@ The following malware samples have been identified in the wild as using code com
 # License
 
 Hacker House code additions are available under a Attribution-NonCommercial-NoDerivatives 4.0 International license.
- 
-

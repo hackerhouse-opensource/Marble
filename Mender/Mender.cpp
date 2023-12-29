@@ -1,7 +1,7 @@
 /*
  * Filename:		Mender.cpp
  *
- * Classification:	SECRET//NOFORN
+ * Classification:	
  * Classified By:	
  *
  * Tool Name:		Mender

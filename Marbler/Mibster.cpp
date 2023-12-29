@@ -1,7 +1,7 @@
 /*
  * Filename:		Marbler.cpp
  *
- * Classification:	SECRET//NOFORN
+ * Classification:	
  * Classified By:	
  *
  * Tool Name:		Marbler
