@@ -3,14 +3,23 @@
 In 2017, Wikileaks published incomplete source code for the Marble Framework. Using AI/ML and a human with
 information learned from the Vault7 leaks, we re-constructed the missing code libraries and have patched the
 StringScrambling solution to compile for build-time String Obfuscation using 106 "Marbles" with Visual Studio. 
-This Framework was created for use by the CIA, however a number of malware samples have been identified in
-the wild using these algorithms. By releasing our modifications, we aim to improve detections of the framework
-and identification of additional samples using these techniques in the wild. 
+This Framework was created for use by the Central Intelligence Agency (CIA) Applied Engineering Department (AED),
+however a number of malware samples have been identified in the wild using these algorithms which may indicate
+use by others. By releasing our modifications, we aim to improve detections of the framework and identification 
+of additional samples using these techniques in the wild. The tool description from CIA internal wiki follows: 
 
 > "The Marble Framework is designed to allow for flexible and easy-to-use obfuscation when developing tools. 
 > When signaturing tools, string obfuscation algorithms (especially those that are unique) are often used to 
 > link malware to a specific developer or development shop. This framework is intended to help us (AED) to 
-> improve upon our current process for string/data obfuscation in our tools."
+> improve upon our current process for string/data obfuscation in our tools." The framework utilizes pre and
+> post-build execution steps to apply obfuscation to the tool. If the tool breaks the build, the post build will
+> always be able to repair it. The pre-build execuion step will store clean copies of the code before making
+> modifications. The post build execution step restores the files to a clean-copy state. The framework allows for
+> obfuscation to be chosen randomly from a pool of techniques. These techniques can be filtered based upon the
+> project needs. If desired, a user may also, select a specific technique to use for obfuscation. A receipt file
+> is generated on run (and replaces any previous receipts). The receipt file identifes the algorithm used as well
+> as all of the strings/data that was obfuscated. The post-build step will also double check to make sure none of
+> the obfuscated data appears in the binary.
 
 This framework can be used to dynamically obfuscate and handle common string operations as an anti-forensics'
 capability.
