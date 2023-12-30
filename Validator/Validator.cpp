@@ -95,14 +95,14 @@ bool fillProperty(T* doc, const char* xpath, DWORD* value) {
 
 int wmain(int argc, wchar_t* argv[])
 {
+	// fixed the CIA's bug here to stop iRet error.
+	int iRet = -1;
+
 	WCHAR wcUsage[] = L"Usage:\n\tPath to Marbler Receipt\n\tPath to File to Scan\n\n*Arguments can go in any order\n\n";
 	
 	//Usage - Validate Args
 	if (argc < 3)
 		goto printusage;
-
-
-	int iRet = -1;
 
 	//Determine which file is which
 	WCHAR *wcReceipt = NULL;
