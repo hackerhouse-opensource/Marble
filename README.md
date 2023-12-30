@@ -45,6 +45,24 @@ project. File states and changes are stored in ".marble" files and it supports a
 
 Documentation can also be found in the `docs` folder which has been created from the link above. 
 
+## Testing
+
+When testing this application from the command line under cmd.exe, `Mibster.exe` will not produce any output as 
+it is designed to run under the output console of Visual Studio (where it works as a pre-build event), however if
+you just want to test it under cmd.exe or similar, uncomment the following code block in `Mibster.cpp` seen in the
+`wWinMain` function. Note that this will need to be removed if you intend to use it under visual studio and is only
+for debugging purposes.
+
+```
+// Attach to the parent console for output.
+/*if (AttachConsole(ATTACH_PARENT_PROCESS))
+{
+	// Redirect stdout to the attached console
+	FILE* stream;
+	_wfreopen_s(&stream, L"CONOUT$", L"w", stdout);
+}*/
+```
+
 ## Malware Detected
 
 The following malware samples have been identified in the wild as using code components from the Marble Framework:
