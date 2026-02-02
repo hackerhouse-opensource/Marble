@@ -70,6 +70,7 @@ The following malware samples have been identified in the wild as using code com
 * Worm:Win32/Takc!pz (Microsoft)
 * TROJAN-DROPPER.WIN32.DAPATO (Kaspersky)
 
+
 # License
 
-Hacker House code additions are available under a Attribution-NonCommercial-NoDerivatives 4.0 International license.
+Hacker House additions and files are available under the 3-clause BSD license.
